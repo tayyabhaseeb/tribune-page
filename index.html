@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tribune page</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        width: 100%;
+        height: 100vh;
+        font-family: sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        /* margin: 20px 0; */
+        padding: 20px 0;
+      }
+      .img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 4px;
+        /* background-color: red; */
+        flex-flow: row wrap;
+      }
+
+      img {
+        height: 350px;
+        width: 25%;
+        object-fit: cover;
+        border-radius: 10px;
+        padding: 5px;
+        opacity: 0.8;
+      }
+
+      /* @media (max-width: 800px) {
+        img {
+          width: 50%;
+        }
+      } */
+      @media (max-width: 800px) {
+        #image {
+          width: 50%;
+        }
+      }
+
+      @media (max-width: 500px) {
+        #image {
+          width: 100%;
+        }
+      }
+
+      .cap {
+        /* margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 15px; */
+        margin: 15px 33%;
+      }
+
+      .caption {
+        text-align: center;
+        font-weight: bolder;
+        background-color: rgb(201, 199, 199);
+        padding: 20px 0;
+        border-radius: 50px 20px;
+      }
+
+      .tribute-info {
+        /* background-color: brown; */
+        text-align: center;
+        /* background-color: rgb(145, 143, 143); */
+        /* border-radius: 50px 20px; */
+        margin: 15px 30%;
+      }
+      .p {
+        padding: 4px 0;
+      }
+
+      a {
+        color: red;
+        font-family: helvetica;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 30px 42%;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: black;
+      }
+
+      a:visited {
+        color: purple;
+      }
+      /* .title {
+        background-color: rgb(201, 199, 199);
+      } */
+
+      img:hover {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="title">
+        <h1 id="title">Kim Tae-hyung</h1>
+      </div>
+      <div class="img">
+        <img src="images/image 1.jpg" alt="	Kim Tae-hyung" id="image" />
+        <img src="images/image 2.jpg" alt="	Kim Tae-hyung" id="image" />
+        <img src="images/image 3.jpg" alt="	Kim Tae-hyung" id="image" />
+        <img src="images/image 4.jpg" alt="	Kim Tae-hyung" id="image" />
+
+        <img src="images/image 5.jpg" alt="	Kim Tae-hyung" id="image" />
+        <img src="images/image 6.jpg" alt="	Kim Tae-hyung" id="image" />
+        <img src="images/image 7.jpg" alt="	Kim Tae-hyung" id="image" />
+        <img src="images/image 8.jpg" alt="	Kim Tae-hyung" id="image" />
+      </div>
+      <div class="cap">
+        <p id="img-caption" class="caption">
+          <em> Don't fall in love with KIM TAEHYUNG (BTS V) Challenge!</em>
+        </p>
+      </div>
+      <div class="tribute-info">
+        <p class="p">
+          Smooth like butter, like a criminal undercover Gon' pop like trouble
+        </p>
+        <p class="p">
+          breaking into your heart like that (ooh) Cool shade, stunner, yeah,
+        </p>
+        <p class="p">
+          I owe it all to my mother Hot like summer, yeah, I'm making you
+        </p>
+        <p class="p">
+          sweat like that (break it down) Ooh, when I look in the mirror I'll
+        </p>
+        <p class="p">
+          melt your heart into two I got that superstar glow, so Ooh (do the
+        </p>
+        <p class="p">
+          boogie, like) Side step, right-left, to my beat High like the moon,
+        </p>
+        <p class="p">
+          rock with me, baby Know that I got that heat Let me show you 'cause
+        </p>
+        <p class="p">
+          talk is cheap Side step, right-left, to my beat Get it, let it roll
+        </p>
+        <p class="p">
+          Smooth like butter, pull you in like no other Don't need no Usher to
+        </p>
+      </div>
+
+      <div>
+        <a
+          class="link"
+          href="https://en.wikipedia.org/wiki/V_(singer)"
+          target="_blank"
+          id="tribute-link"
+          >LEARN MORE ABOUT KIM TAEHYUNG</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
